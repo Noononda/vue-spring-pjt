@@ -21,6 +21,6 @@ jobs:
         # jar file build and permission
         - name: Grant jar
           run: chmod -x gradlew
-          
+
         - name: Build Jar
-          run: ./gradlew build boot.JAR
+          run: ./gradlew build bootJAR
