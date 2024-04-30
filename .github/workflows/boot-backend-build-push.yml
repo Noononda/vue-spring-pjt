@@ -8,6 +8,6 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-    steps:
-    - name: Source Checkout
-      uses: actions/checkout@v2
+        steps:
+        - name: Source Checkout
+          uses: actions/checkout@v2
