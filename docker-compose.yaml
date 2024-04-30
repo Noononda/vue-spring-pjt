@@ -2,8 +2,8 @@ version: "3"
 services:
   app:
     container_name: work-container
-    # build: .
-    image: noononda/springapp:14012808c137507baadf41b041b4c1b5a86958dd
+    build: .
+    # image: noononda/springapp:14012808c137507baadf41b041b4c1b5a86958dd
     depends_on:
       - database
     ports:
